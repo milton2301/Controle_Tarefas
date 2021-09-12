@@ -1,0 +1,129 @@
+*{
+    font-family: 'Roboto';
+}
+
+.msg{
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+    background-color:#fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn-primary{
+    background-color: rgb(70, 158, 62);
+    border: 1px solid rgb(70, 158, 62);
+}
+
+.btn-primary:hover{
+    background-color: green;
+    border: 2px solid green;
+}
+
+#navbar img{
+width: 80%;
+height: 10vh ;
+margin-left: 5%;
+}
+
+#navbar{
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+#navbar a{
+    font-size: 14pt;
+    color: black;
+}
+
+#navbar a:hover{
+    font-size: 14pt;
+    color: green;
+}
+
+#tarefas-container{
+    padding: 30px;
+}
+
+#tarefas-container h2{
+    margin-bottom: 10px;
+}
+
+#cards-container{
+    display: flex;
+}
+
+#tarefas-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+    border: solid 1px;
+}
+
+#tarefas-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+
+
+.card .card-date{
+    font-size: 10pt;
+    color: black; ;
+}
+
+.card .card-title{
+    color: black;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#show-details{
+    text-align: center;
+    color: green;
+}
+
+footer{
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+   margin-bottom:0;
+}
+
